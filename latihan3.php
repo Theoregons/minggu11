@@ -1,8 +1,12 @@
 <?php 
 
-    $x = 10;
+    $x = 20;
     if ($x < 20) {
         echo "benar";
-    } else {
+    } 
+    else if($x == 20){
+        echo "Bingo!";
+    }
+    else {
         echo "salah";
     }
