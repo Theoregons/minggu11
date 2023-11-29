@@ -8,9 +8,9 @@
 <body>
     <table border="1" cellpadding="10">
         <?php 
-            for ($i=1; $i <= 3; $i++) { 
+            for ($i=1; $i <= 10; $i++) { 
                 echo "<tr>";
-                for ($k=0; $k <= 5; $k++) { 
+                for ($k=0; $k <= 8; $k++) { 
                     echo "<td> $i,$k</td>";
                 }
                 echo "</tr>"; 
